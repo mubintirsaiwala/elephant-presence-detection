@@ -14,7 +14,7 @@ To further reduce the damage, we perform acoustic surveillance of forests for il
 Built on the fact that, majority of the times, elephants communicate through rumbles which are in the infrasonic range, this project aims to classify difference between infrasonic noise and rumbles.  
 Being in the infrasonic range, the rumbles can travel upto **10Kms** without attenuating and we can detect elephant's presence long before their arrival.  
 But in the infrasonic range, noise component is very high for which we designed specific cepstrum coefficients as features for our models.  
-To take temporal nature of voice into account, we trained custom Convolutional Neural Networks(CNN) models.
+To take temporal nature of voice into account and pixelated image generated from coefficients, we trained custom Convolutional Neural Networks(CNN) models.
 
 
 #### Forest Acoustic Surveillance :
@@ -36,4 +36,8 @@ Chainsaw and gunshot sounds are detected which are in the human audible range. A
 
 All the audio files used in the demo below can be found in [assets](/assets) folder.  
 In the demo, we show how our models identify the sounds. Note that there are no hardware accelerators used for this demo and the models are not optimized for latency. These things are considered in the hardware deployment part though.
+
+
+
+https://user-images.githubusercontent.com/53338328/149909516-961e4d3e-b615-4c2d-8277-f26da129096f.mp4
 
